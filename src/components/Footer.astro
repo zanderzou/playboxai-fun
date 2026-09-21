@@ -1,0 +1,16 @@
+---
+import type { CollectionEntry } from "astro:content";
+import Icon from "./Icon.astro";
+import { site } from "../data/site";
+interface Props { posts: CollectionEntry<"blog">[]; }
+const { posts } = Astro.props;
+---
+<footer>
+  <div class="footer-grid">
+    <div><a class="brand" href="/"><span class="brand-icon"><Icon name="spark" /></span><strong>PLAY<span>BOX</span></strong><small>AI GUIDE</small></a><p>Independent research on Playbox AI image-to-video generation, template workflows, output testing, credits, consent, privacy, and alternatives.</p></div>
+    <div><h3>Explore</h3><a href="/#workflow">Playbox workflow</a><a href="/#benchmark">Video benchmark</a><a href="/#compare">Tool comparisons</a><a href="/#safety">Safety checklist</a><a href={site.officialUrl} rel="noopener" target="_blank">Official website</a></div>
+    <div><h3>Latest guides</h3>{posts.slice(0, 3).map((post) => <a href={`/blog/${post.id}/`}>{post.data.title}</a>)}</div>
+    <div><h3>Information</h3><a href="/about/">About</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/editorial-policy/">Editorial policy</a><a href="/contact/">Contact</a></div>
+  </div>
+  <div class="footer-bottom"><span>© <span data-year>2026</span> Playbox AI Video Guide</span><span>Independent publication · Adults only</span><span>No uploads or generated media collected</span></div>
+</footer>
