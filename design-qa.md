@@ -8,4 +8,4 @@ Checked on 2026-09-21 against the production Astro build.
 - Header, navigation, hero buttons, trust labels, and mobile menu remain inside the viewport.
 - Mobile headline wraps without clipping; hero actions use full-width touch targets.
 - Visual identity follows the official product's black/electric-blue direction without copying explicit gallery media or claiming affiliation.
-- Source image is original, fully clothed, non-explicit, and depicts a clearly adult fictional subject.
+- Source image is original, non-explicit, and depicts a clearly adult fictional subject in glamorous opaque eveningwear with a tasteful neckline and visible legs.
