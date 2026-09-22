@@ -1,0 +1,34 @@
+# Playbox AI Video Guide
+
+> An independent Playbox AI guide to image-to-video workflows, templates, credits, output quality, privacy, consent, pricing questions, and alternatives.
+
+Canonical publication: https://playboxai.fun/
+
+This is an independent editorial publication, not the official provider. Articles distinguish published provider information from suggested evaluation methods. Examples and proposed tests are not measured benchmark results. Check dated sources and live provider terms for changing features and prices.
+
+## Main pages
+
+- [Homepage](https://playboxai.fun/): Overview and practical decision guidance.
+- [Blog and comparisons](https://playboxai.fun/blog/): Browse the editorial article collection.
+
+## Comparisons
+
+- [Playbox AI vs Kling AI: Features, Strengths, Weaknesses](https://playboxai.fun/blog/playbox-ai-vs-kling-ai/)
+- [Playbox AI vs Luma Dream Machine: Features, Strengths, Weaknesses](https://playboxai.fun/blog/playbox-ai-vs-luma-dream-machine/)
+- [Playbox AI vs Musebox AI: Which Image-to-Video Workflow Fits?](https://playboxai.fun/blog/playbox-ai-vs-musebox/)
+- [Playbox AI vs Pika: Features, Strengths, Weaknesses](https://playboxai.fun/blog/playbox-ai-vs-pika/)
+- [Playbox AI vs Runway: Template Generator or Broader Video Studio?](https://playboxai.fun/blog/playbox-ai-vs-runway/)
+
+## Publication information
+
+- [About](https://playboxai.fun/about/)
+- [Editorial policy](https://playboxai.fun/editorial-policy/)
+- [Contact](https://playboxai.fun/contact/)
+- [Privacy policy](https://playboxai.fun/privacy/)
+- [Terms](https://playboxai.fun/terms/)
+
+## Optional
+
+- [XML sitemap](https://playboxai.fun/sitemap-index.xml): Canonical page inventory.
+- [RSS feed](https://playboxai.fun/rss.xml): Published article updates.
+- [Robots policy](https://playboxai.fun/robots.txt): Crawler access directives.
