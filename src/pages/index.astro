@@ -23,7 +23,7 @@ const jsonLd = { "@context":"https://schema.org", "@graph":[
   { "@type":"FAQPage", mainEntity:faqs.map((faq)=>({"@type":"Question",name:faq.question,acceptedAnswer:{"@type":"Answer",text:faq.answer}})) }
 ]};
 ---
-<BaseLayout title="Playbox AI Guide: Image-to-Video Workflow, Review & Alternatives" description={site.description} keywords={["Playbox AI","Playbox AI video generator","Playbox review","Playbox alternatives","image to video AI","Playbox pricing"]} jsonLd={jsonLd}>
+<BaseLayout title="Playbox AI" description={site.description} keywords={["Playbox AI","Playbox AI video generator","Playbox review","Playbox alternatives","image to video AI","Playbox pricing"]} jsonLd={jsonLd}>
   <section class="hero playbox-hero">
     <Image class="hero-image" src={heroImage} alt="Adult model in black swimwear beside a sunlit pool" widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={84} />
     <div class="hero-glow"></div>

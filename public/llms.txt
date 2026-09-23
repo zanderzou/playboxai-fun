@@ -1,4 +1,4 @@
-# Playbox AI Video Guide
+# Playbox AI
 
 > An independent Playbox AI guide to image-to-video workflows, templates, credits, output quality, privacy, consent, pricing questions, and alternatives.
 

@@ -1,5 +1,5 @@
 export const site = {
-  name: "Playbox AI Video Guide",
+  name: "Playbox AI",
   domain: "playboxai.fun",
   url: "https://playboxai.fun",
   description: "An independent Playbox AI guide to image-to-video workflows, templates, credits, output quality, privacy, consent, pricing questions, and alternatives.",
