@@ -43,7 +43,7 @@ That does not automatically make Kling AI the overall winner. It means users sho
 
 ## A fair side-by-side test
 
-Use the same owned or licensed source image and the same short motion brief in both products. Create one subtle movement and one more dynamic shot. Record generation time, credits consumed, face and hand stability, camera motion, prompt adherence, watermarks, export resolution, and how many attempts produced a clip you would keep.
+Use the same adult self-portrait and short motion brief in both products, subject to each service's current upload rules. Playbox.com's terms require you to be the sole person shown. Create one subtle movement and one more dynamic shot. Record generation time, credits consumed, face and hand stability, camera motion, prompt adherence, watermarks, export resolution, and how many attempts produced a clip you would keep.
 
 Run the test in one sitting and keep the input constant. Changing the character, source image, scenario, or quality target halfway through makes the result impossible to interpret. A simple score from one to five for control, consistency, speed, usability, and cost is enough to expose meaningful differences.
 

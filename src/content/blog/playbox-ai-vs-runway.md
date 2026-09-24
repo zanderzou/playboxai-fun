@@ -70,7 +70,7 @@ Keep the score binary where possible. “Usable without repair” is more inform
 
 ## Rights, privacy, and disclosure
 
-Playbox’s terms state that uploaded images should depict the user and prohibit using other people without explicit consent. Treat that as the minimum standard for every platform. Do not upload minors, private photographs, identification documents, stolen images, or any identifiable person who has not agreed to the exact transformation.
+Playbox.com's current terms require the uploader to be the sole person depicted in an uploaded image. Do not reinterpret that as permission to upload someone else's portrait if you obtain a general license. Runway has its own rules; comply with both services' terms. Never upload minors, private photographs, identification documents, or stolen images.
 
 Before using either service, review the current terms for data handling, model improvement, account deletion, output ownership, commercial use, and content restrictions. Remove hidden location metadata and disclose synthetic media when a realistic result could mislead viewers.
 

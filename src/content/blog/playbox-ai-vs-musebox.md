@@ -47,7 +47,7 @@ The risk is that discovery and evaluation become mixed together. A compelling fe
 
 ## A fair image-to-video benchmark
 
-Use a source you own, licensed stock, or a synthetic portrait depicting a clearly adult person. A simple source is more diagnostic than a complex one: neutral background, even lighting, hands visible, no tiny text, and no reflective clutter.
+For a Playbox.com upload, use an adult self-portrait in which you are the sole depicted person; its terms do not allow a third-party portrait simply because it is licensed or consented to. A simple source is more diagnostic than a complex one: neutral background, even lighting, hands visible, no tiny text, and no reflective clutter. Check Musebox's separate rules before using the same image there.
 
 Run the same brief three times in each tool. Score every clip on five dimensions:
 
