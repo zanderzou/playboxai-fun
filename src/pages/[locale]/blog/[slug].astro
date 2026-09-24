@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { localeList, type LocaleSlug } from "../../../data/localized-playbox";
+import { blogCopy } from "../../../data/localized-blog";
+import { localizedComparisons, articleOrder, articleSources, comparedBrand, type ComparisonKey } from "../../../data/localized-articles";
+import { site } from "../../../data/site";
+export function getStaticPaths() { return localeList.flatMap((entry) => articleOrder.map((key) => ({ params:{locale:entry.slug,slug:`playbox-ai-vs-${key}`}, props:{localeSlug:entry.slug,key} }))); }
+const localeSlug = Astro.props.localeSlug as LocaleSlug;
+const key = Astro.props.key as ComparisonKey;
+const copy = localizedComparisons[localeSlug][key];
+const blog = blogCopy[localeSlug];
+const lang = localeList.find((entry) => entry.slug === localeSlug)!.code;
+const pageUrl = `${site.url}/${localeSlug}/blog/playbox-ai-vs-${key}/`;
+const sourceList = [
+  {name:"Playbox.com",url:articleSources[key].playbox},
+  {name:comparedBrand[key],url:articleSources[key].product},
+  {name:"Playbox.com terms",url:articleSources[key].safety},
+];
+const jsonLd = {"@context":"https://schema.org","@type":"Article",headline:copy.title,description:copy.description,url:pageUrl,mainEntityOfPage:pageUrl,inLanguage:lang,author:{"@type":"Organization",name:site.author,url:site.url},publisher:{"@type":"Organization",name:site.name,url:site.url},citation:sourceList.map((source) => source.url)};
+---
+<BaseLayout title={copy.title} description={copy.description} type="article" jsonLd={jsonLd}>
+  <article class="lp-article"><header><span class="section-label">Playbox AI / {blog.eyebrow}</span><h1>{copy.title}</h1><p class="lp-article-intro">{copy.intro}</p></header><div class="lp-article-body"><section class="lp-verdict"><h2>{blog.decision}</h2><p>{copy.verdict}</p></section>{copy.sections.map(([heading,body]) => <section><h2>{heading}</h2><p>{body}</p></section>)}</div><div class="lp-sources"><h2>{blog.sources}</h2><ul>{sourceList.map((source) => <li><a href={source.url} target="_blank" rel="noopener noreferrer">{source.name} ↗</a></li>)}</ul></div><a class="lp-back" href={`/${localeSlug}/blog/`}>← {blog.back}</a></article>
+</BaseLayout>

@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { localeList, type LocaleSlug } from "../../../data/localized-playbox";
+import { blogCopy } from "../../../data/localized-blog";
+import { localizedComparisons, articleOrder, comparedBrand } from "../../../data/localized-articles";
+import { site } from "../../../data/site";
+export function getStaticPaths() { return localeList.map((entry) => ({ params:{locale:entry.slug}, props:{localeSlug:entry.slug} })); }
+const localeSlug = Astro.props.localeSlug as LocaleSlug;
+const copy = blogCopy[localeSlug];
+const lang = localeList.find((entry) => entry.slug === localeSlug)!.code;
+const pageUrl = `${site.url}/${localeSlug}/blog/`;
+const jsonLd = {"@context":"https://schema.org","@type":"CollectionPage",name:copy.title,url:pageUrl,description:copy.description,inLanguage:lang,hasPart:articleOrder.map((key) => ({"@type":"Article",headline:localizedComparisons[localeSlug][key].title,url:`${site.url}/${localeSlug}/blog/playbox-ai-vs-${key}/`}))};
+---
+<BaseLayout title={copy.title} description={copy.description} jsonLd={jsonLd}>
+  <section class="page-hero lp-blog-hero"><div class="ambient-orb"></div><span>{copy.eyebrow}</span><h1>{copy.heading}</h1><p>{copy.intro}</p></section>
+  <section class="section lp-blog-list"><div class="lp-article-grid">{articleOrder.map((key,index) => <a href={`/${localeSlug}/blog/playbox-ai-vs-${key}/`}><span>{String(index+1).padStart(2,"0")} / {comparedBrand[key]}</span><h2>{localizedComparisons[localeSlug][key].title}</h2><p>{localizedComparisons[localeSlug][key].description}</p><strong>{copy.decision} ↗</strong></a>)}</div></section>
+</BaseLayout>

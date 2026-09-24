@@ -19,6 +19,117 @@ This is an independent editorial publication, not the official provider. Article
 - [Playbox AI vs Pika: Features, Strengths, Weaknesses](https://playboxai.fun/blog/playbox-ai-vs-pika/)
 - [Playbox AI vs Runway: Template Generator or Broader Video Studio?](https://playboxai.fun/blog/playbox-ai-vs-runway/)
 
+## Localized editions
+
+- [Japanese homepage](https://playboxai.fun/ja/): Localized Playbox AI workflow and decision guidance.
+- [Japanese comparisons](https://playboxai.fun/ja/blog/): Five localized VS articles.
+- [Japanese: Playbox AI vs Kling AI：テンプレートと運動指示をどう比べる？](https://playboxai.fun/ja/blog/playbox-ai-vs-kling-ai/)
+- [Japanese: Playbox AI vs Luma：旧 Dream Machine 名から現在の動画制作へ](https://playboxai.fun/ja/blog/playbox-ai-vs-luma-dream-machine/)
+- [Japanese: Playbox AI vs Musebox AI：テンプレート選びと発想探しの違い](https://playboxai.fun/ja/blog/playbox-ai-vs-musebox/)
+- [Japanese: Playbox AI vs Pika：肖像テンプレートと短編エフェクト](https://playboxai.fun/ja/blog/playbox-ai-vs-pika/)
+- [Japanese: Playbox AI vs Runway：短いテンプレート動画か制作環境か](https://playboxai.fun/ja/blog/playbox-ai-vs-runway/)
+- [Japanese: このサイトについて | Playbox AI](https://playboxai.fun/ja/about/)
+- [Japanese: 編集方針 | Playbox AI](https://playboxai.fun/ja/editorial-policy/)
+- [Japanese: お問い合わせ | Playbox AI](https://playboxai.fun/ja/contact/)
+- [Japanese: プライバシー | Playbox AI](https://playboxai.fun/ja/privacy/)
+- [Japanese: 利用条件 | Playbox AI](https://playboxai.fun/ja/terms/)
+- [Korean homepage](https://playboxai.fun/ko/): Localized Playbox AI workflow and decision guidance.
+- [Korean comparisons](https://playboxai.fun/ko/blog/): Five localized VS articles.
+- [Korean: Playbox AI vs Kling AI: 템플릿과 동작 제어의 차이](https://playboxai.fun/ko/blog/playbox-ai-vs-kling-ai/)
+- [Korean: Playbox AI vs Luma: 옛 Dream Machine과 현재 영상 도구](https://playboxai.fun/ko/blog/playbox-ai-vs-luma-dream-machine/)
+- [Korean: Playbox AI vs Musebox AI: 템플릿 선택과 아이디어 탐색](https://playboxai.fun/ko/blog/playbox-ai-vs-musebox/)
+- [Korean: Playbox AI vs Pika: 인물 템플릿과 짧은 영상 효과](https://playboxai.fun/ko/blog/playbox-ai-vs-pika/)
+- [Korean: Playbox AI vs Runway: 템플릿 한 장면과 전체 영상 제작](https://playboxai.fun/ko/blog/playbox-ai-vs-runway/)
+- [Korean: 사이트 소개 | Playbox AI](https://playboxai.fun/ko/about/)
+- [Korean: 편집 원칙 | Playbox AI](https://playboxai.fun/ko/editorial-policy/)
+- [Korean: 문의 | Playbox AI](https://playboxai.fun/ko/contact/)
+- [Korean: 개인정보 처리 | Playbox AI](https://playboxai.fun/ko/privacy/)
+- [Korean: 이용 조건 | Playbox AI](https://playboxai.fun/ko/terms/)
+- [Traditional Chinese homepage](https://playboxai.fun/zh-hant/): Localized Playbox AI workflow and decision guidance.
+- [Traditional Chinese comparisons](https://playboxai.fun/zh-hant/blog/): Five localized VS articles.
+- [Traditional Chinese: Playbox AI vs Kling AI：範本速度與動作控制](https://playboxai.fun/zh-hant/blog/playbox-ai-vs-kling-ai/)
+- [Traditional Chinese: Playbox AI vs Luma：從舊 Dream Machine 搜尋詞看現行影片工具](https://playboxai.fun/zh-hant/blog/playbox-ai-vs-luma-dream-machine/)
+- [Traditional Chinese: Playbox AI vs Musebox AI：選範本與找靈感的差別](https://playboxai.fun/zh-hant/blog/playbox-ai-vs-musebox/)
+- [Traditional Chinese: Playbox AI vs Pika：肖像動態範本與創意特效](https://playboxai.fun/zh-hant/blog/playbox-ai-vs-pika/)
+- [Traditional Chinese: Playbox AI vs Runway：單一動態範本還是整套影片工作流](https://playboxai.fun/zh-hant/blog/playbox-ai-vs-runway/)
+- [Traditional Chinese: 關於本站 | Playbox AI](https://playboxai.fun/zh-hant/about/)
+- [Traditional Chinese: 編輯政策 | Playbox AI](https://playboxai.fun/zh-hant/editorial-policy/)
+- [Traditional Chinese: 聯絡本站 | Playbox AI](https://playboxai.fun/zh-hant/contact/)
+- [Traditional Chinese: 隱私政策 | Playbox AI](https://playboxai.fun/zh-hant/privacy/)
+- [Traditional Chinese: 使用條款 | Playbox AI](https://playboxai.fun/zh-hant/terms/)
+- [Spanish homepage](https://playboxai.fun/es/): Localized Playbox AI workflow and decision guidance.
+- [Spanish comparisons](https://playboxai.fun/es/blog/): Five localized VS articles.
+- [Spanish: Playbox AI vs Kling AI: elegir movimiento o dirigir la cámara](https://playboxai.fun/es/blog/playbox-ai-vs-kling-ai/)
+- [Spanish: Playbox AI vs Luma: del antiguo Dream Machine al vídeo actual](https://playboxai.fun/es/blog/playbox-ai-vs-luma-dream-machine/)
+- [Spanish: Playbox AI vs Musebox AI: plantilla lista o búsqueda de ideas](https://playboxai.fun/es/blog/playbox-ai-vs-musebox/)
+- [Spanish: Playbox AI vs Pika: conservar el retrato o buscar un efecto](https://playboxai.fun/es/blog/playbox-ai-vs-pika/)
+- [Spanish: Playbox AI vs Runway: un clip con plantilla o una producción entera](https://playboxai.fun/es/blog/playbox-ai-vs-runway/)
+- [Spanish: Sobre este sitio | Playbox AI](https://playboxai.fun/es/about/)
+- [Spanish: Política editorial | Playbox AI](https://playboxai.fun/es/editorial-policy/)
+- [Spanish: Contacto | Playbox AI](https://playboxai.fun/es/contact/)
+- [Spanish: Privacidad | Playbox AI](https://playboxai.fun/es/privacy/)
+- [Spanish: Términos | Playbox AI](https://playboxai.fun/es/terms/)
+- [Brazilian Portuguese homepage](https://playboxai.fun/pt-br/): Localized Playbox AI workflow and decision guidance.
+- [Brazilian Portuguese comparisons](https://playboxai.fun/pt-br/blog/): Five localized VS articles.
+- [Brazilian Portuguese: Playbox AI vs Kling AI: modelo de movimento ou câmera dirigida](https://playboxai.fun/pt-br/blog/playbox-ai-vs-kling-ai/)
+- [Brazilian Portuguese: Playbox AI vs Luma: do antigo Dream Machine ao vídeo atual](https://playboxai.fun/pt-br/blog/playbox-ai-vs-luma-dream-machine/)
+- [Brazilian Portuguese: Playbox AI vs Musebox AI: escolher um modelo ou descobrir uma ideia](https://playboxai.fun/pt-br/blog/playbox-ai-vs-musebox/)
+- [Brazilian Portuguese: Playbox AI vs Pika: movimento de retrato ou efeito para vídeo curto](https://playboxai.fun/pt-br/blog/playbox-ai-vs-pika/)
+- [Brazilian Portuguese: Playbox AI vs Runway: um clipe com modelo pronto ou produção completa](https://playboxai.fun/pt-br/blog/playbox-ai-vs-runway/)
+- [Brazilian Portuguese: Sobre o site | Playbox AI](https://playboxai.fun/pt-br/about/)
+- [Brazilian Portuguese: Política editorial | Playbox AI](https://playboxai.fun/pt-br/editorial-policy/)
+- [Brazilian Portuguese: Contato | Playbox AI](https://playboxai.fun/pt-br/contact/)
+- [Brazilian Portuguese: Privacidade | Playbox AI](https://playboxai.fun/pt-br/privacy/)
+- [Brazilian Portuguese: Termos | Playbox AI](https://playboxai.fun/pt-br/terms/)
+- [Russian homepage](https://playboxai.fun/ru/): Localized Playbox AI workflow and decision guidance.
+- [Russian comparisons](https://playboxai.fun/ru/blog/): Five localized VS articles.
+- [Russian: Playbox AI и Kling AI: шаблон движения или управление камерой](https://playboxai.fun/ru/blog/playbox-ai-vs-kling-ai/)
+- [Russian: Playbox AI и Luma: что изменилось после Dream Machine](https://playboxai.fun/ru/blog/playbox-ai-vs-luma-dream-machine/)
+- [Russian: Playbox AI и Musebox AI: готовый шаблон или поиск идеи](https://playboxai.fun/ru/blog/playbox-ai-vs-musebox/)
+- [Russian: Playbox AI и Pika: портретный шаблон против яркого эффекта](https://playboxai.fun/ru/blog/playbox-ai-vs-pika/)
+- [Russian: Playbox AI и Runway: один ролик по шаблону или видеопроизводство](https://playboxai.fun/ru/blog/playbox-ai-vs-runway/)
+- [Russian: О сайте | Playbox AI](https://playboxai.fun/ru/about/)
+- [Russian: Редакционная политика | Playbox AI](https://playboxai.fun/ru/editorial-policy/)
+- [Russian: Контакты | Playbox AI](https://playboxai.fun/ru/contact/)
+- [Russian: Конфиденциальность | Playbox AI](https://playboxai.fun/ru/privacy/)
+- [Russian: Условия использования | Playbox AI](https://playboxai.fun/ru/terms/)
+- [German homepage](https://playboxai.fun/de/): Localized Playbox AI workflow and decision guidance.
+- [German comparisons](https://playboxai.fun/de/blog/): Five localized VS articles.
+- [German: Playbox AI vs Kling AI: Vorlage wählen oder Bewegung steuern](https://playboxai.fun/de/blog/playbox-ai-vs-kling-ai/)
+- [German: Playbox AI vs Luma: aktuelles Video statt altem Dream Machine](https://playboxai.fun/de/blog/playbox-ai-vs-luma-dream-machine/)
+- [German: Playbox AI vs Musebox AI: Bewegungsvorlage oder Inspirationssuche](https://playboxai.fun/de/blog/playbox-ai-vs-musebox/)
+- [German: Playbox AI vs Pika: Porträtvorlage oder auffälliger Effekt](https://playboxai.fun/de/blog/playbox-ai-vs-pika/)
+- [German: Playbox AI vs Runway: ein Vorlagenclip oder eine ganze Produktion](https://playboxai.fun/de/blog/playbox-ai-vs-runway/)
+- [German: Über diese Seite | Playbox AI](https://playboxai.fun/de/about/)
+- [German: Redaktionelle Grundsätze | Playbox AI](https://playboxai.fun/de/editorial-policy/)
+- [German: Kontakt | Playbox AI](https://playboxai.fun/de/contact/)
+- [German: Datenschutz | Playbox AI](https://playboxai.fun/de/privacy/)
+- [German: Nutzungsbedingungen | Playbox AI](https://playboxai.fun/de/terms/)
+- [French homepage](https://playboxai.fun/fr/): Localized Playbox AI workflow and decision guidance.
+- [French comparisons](https://playboxai.fun/fr/blog/): Five localized VS articles.
+- [French: Playbox AI vs Kling AI : modèle prêt ou mouvement dirigé](https://playboxai.fun/fr/blog/playbox-ai-vs-kling-ai/)
+- [French: Playbox AI vs Luma : après l'ancien Dream Machine](https://playboxai.fun/fr/blog/playbox-ai-vs-luma-dream-machine/)
+- [French: Playbox AI vs Musebox AI : choisir un modèle ou trouver une idée](https://playboxai.fun/fr/blog/playbox-ai-vs-musebox/)
+- [French: Playbox AI vs Pika : mouvement fidèle ou effet spectaculaire](https://playboxai.fun/fr/blog/playbox-ai-vs-pika/)
+- [French: Playbox AI vs Runway : une vidéo à modèle ou un atelier complet](https://playboxai.fun/fr/blog/playbox-ai-vs-runway/)
+- [French: À propos | Playbox AI](https://playboxai.fun/fr/about/)
+- [French: Politique éditoriale | Playbox AI](https://playboxai.fun/fr/editorial-policy/)
+- [French: Contact | Playbox AI](https://playboxai.fun/fr/contact/)
+- [French: Confidentialité | Playbox AI](https://playboxai.fun/fr/privacy/)
+- [French: Conditions d'utilisation | Playbox AI](https://playboxai.fun/fr/terms/)
+- [Arabic homepage](https://playboxai.fun/ar/): Localized Playbox AI workflow and decision guidance.
+- [Arabic comparisons](https://playboxai.fun/ar/blog/): Five localized VS articles.
+- [Arabic: Playbox AI مقابل Kling AI: اختيار قالب أم توجيه الحركة؟](https://playboxai.fun/ar/blog/playbox-ai-vs-kling-ai/)
+- [Arabic: Playbox AI مقابل Luma: ما بعد اسم Dream Machine القديم](https://playboxai.fun/ar/blog/playbox-ai-vs-luma-dream-machine/)
+- [Arabic: Playbox AI مقابل Musebox AI: قالب جاهز أم البحث عن فكرة؟](https://playboxai.fun/ar/blog/playbox-ai-vs-musebox/)
+- [Arabic: Playbox AI مقابل Pika: حركة صورة شخصية أم مؤثر لافت؟](https://playboxai.fun/ar/blog/playbox-ai-vs-pika/)
+- [Arabic: Playbox AI مقابل Runway: مقطع بقالب أم مشروع فيديو كامل؟](https://playboxai.fun/ar/blog/playbox-ai-vs-runway/)
+- [Arabic: عن الموقع | Playbox AI](https://playboxai.fun/ar/about/)
+- [Arabic: السياسة التحريرية | Playbox AI](https://playboxai.fun/ar/editorial-policy/)
+- [Arabic: الاتصال | Playbox AI](https://playboxai.fun/ar/contact/)
+- [Arabic: الخصوصية | Playbox AI](https://playboxai.fun/ar/privacy/)
+- [Arabic: شروط الاستخدام | Playbox AI](https://playboxai.fun/ar/terms/)
+
 ## Publication information
 
 - [About](https://playboxai.fun/about/)

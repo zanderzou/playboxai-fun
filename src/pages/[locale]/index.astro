@@ -1,0 +1,35 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Icon from "../../components/Icon.astro";
+import heroImage from "../../assets/playbox-user-pool-editorial.jpg";
+import secondaryImage from "../../assets/playbox-user-fitness-editorial.jpg";
+import { homeCopy, localeList, type LocaleSlug } from "../../data/localized-playbox";
+import { articleOrder } from "../../data/localized-articles";
+import { localizedComparisons } from "../../data/localized-articles";
+import { blogCopy } from "../../data/localized-blog";
+import { footerCopy } from "../../data/localized-ui";
+import { site } from "../../data/site";
+export function getStaticPaths() { return localeList.map((entry) => ({ params:{locale:entry.slug}, props:{localeSlug:entry.slug} })); }
+const localeSlug = Astro.props.localeSlug as LocaleSlug;
+const copy = homeCopy[localeSlug];
+const blog = blogCopy[localeSlug];
+const labels = footerCopy[localeSlug];
+const root = `/${localeSlug}/`;
+const pageUrl = `${site.url}${root}`;
+const jsonLd = {"@context":"https://schema.org","@graph":[
+  {"@type":"WebSite","@id":`${site.url}/#website`,name:site.name,url:site.url,inLanguage:copy.code},
+  {"@type":"WebPage","@id":`${pageUrl}#webpage`,name:"Playbox AI",url:pageUrl,description:copy.description,inLanguage:copy.code,isPartOf:{"@id":`${site.url}/#website`}},
+  {"@type":"FAQPage",mainEntity:copy.faqs.map(([question,answer]) => ({"@type":"Question",name:question,acceptedAnswer:{"@type":"Answer",text:answer}}))},
+]};
+---
+<BaseLayout title={copy.title} description={copy.description} jsonLd={jsonLd}>
+  <section class="hero playbox-hero locale-hero"><Image class="hero-image" src={heroImage} alt={labels.heroAlt} widths={[640,960,1280,1536]} sizes="100vw" loading="eager" fetchpriority="high" quality={84}/><div class="hero-glow"></div><div class="hero-copy"><div class="kicker">{copy.hero.eyebrow}</div><h1>Playbox AI</h1><p class="hero-subtitle">{copy.hero.subhead}</p><p>{copy.hero.lead}</p><div class="hero-actions"><a class="button primary" href="#workflow">{copy.hero.cta} <Icon name="arrow"/></a><a class="button ghost" href={`${root}blog/`}>{copy.ui.articles}</a></div></div></section>
+  <section class="section lp-identity"><div class="section-label">01 / Playbox AI</div><h2>{copy.identity.heading}</h2>{copy.identity.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</section>
+  <section class="section" id="workflow"><div class="section-head"><div class="section-label">02 / {copy.ui.workflow}</div><h2>{copy.method.heading}</h2><p>{copy.method.intro}</p></div><div class="lp-steps">{copy.method.steps.map(([heading,body],index) => <article><b>{String(index+1).padStart(2,"0")}</b><div><h3>{heading}</h3><p>{body}</p></div></article>)}</div></section>
+  <section class="section" id="compare"><div class="section-head"><div class="section-label">03 / {copy.ui.compare}</div><h2>{copy.comparisons.heading}</h2><p>{copy.comparisons.intro}</p></div><div class="lp-comparisons">{copy.comparisons.rows.map(([heading,body],index) => <a href={`${root}blog/playbox-ai-vs-${articleOrder[index]}/`}><b>{String(index+1).padStart(2,"0")}</b><div><h3>{heading}</h3><p>{body}</p></div><Icon name="arrow"/></a>)}</div></section>
+  <section class="section lp-notes"><div class="section-label">04 / Playbox AI</div><h2>{copy.notes.heading}</h2><figure><Image src={secondaryImage} alt={labels.secondaryAlt} widths={[640,960,1280]} sizes="(max-width: 640px) 100vw, 640px" loading="lazy" quality={84}/></figure><div class="lp-note-grid">{copy.notes.entries.map(([heading,body]) => <article><h3>{heading}</h3><p>{body}</p></article>)}</div></section>
+  <section class="section lp-safety" id="safety"><div class="section-label">05 / {copy.ui.safety}</div><h2>{copy.safety.heading}</h2>{copy.safety.paragraphs.map((paragraph) => <p>{paragraph}</p>)}<a class="button ghost" href="https://www.playbox.com/terms-and-conditions" target="_blank" rel="noopener noreferrer">{copy.ui.official} <Icon name="arrow"/></a></section>
+  <section class="section"><div class="section-head"><div class="section-label">06 / {copy.ui.articles}</div><h2>{blog.heading}</h2><p>{blog.intro}</p></div><div class="lp-article-grid">{articleOrder.map((key,index) => <a href={`${root}blog/playbox-ai-vs-${key}/`}><span>{String(index+1).padStart(2,"0")}</span><h3>{localizedComparisons[localeSlug][key].title}</h3><p>{localizedComparisons[localeSlug][key].description}</p><strong>{copy.ui.read} ↗</strong></a>)}</div></section>
+  <section class="section lp-faq"><div class="section-label">07 / Playbox AI</div><h2>{labels.faq}</h2><div class="faq-list">{copy.faqs.map(([question,answer]) => <details><summary>{question}<span>+</span></summary><p>{answer}</p></details>)}</div></section>
+</BaseLayout>

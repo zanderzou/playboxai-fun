@@ -10,10 +10,11 @@
     "dev": "node scripts/run-astro.mjs dev",
     "build": "node scripts/run-astro.mjs build && node scripts/prepare-sites-build.mjs",
     "preview": "node scripts/run-astro.mjs preview",
-    "test:seo": "node scripts/audit-static.mjs",
+    "test:seo": "node scripts/audit-locales.mjs",
     "test:sites": "node --test tests/sites-worker.test.mjs",
     "generate:llms": "node scripts/generate-llms.mjs",
     "test:llms": "node scripts/generate-llms.mjs --check",
+    "test:locales": "node scripts/audit-localized-content.mjs",
     "prebuild": "npm run generate:llms"
   },
   "dependencies": {

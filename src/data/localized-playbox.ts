@@ -1,4 +1,4 @@
-/** Editorial drafts. Do not expose localized routes or hreflang until all nine locales and articles pass QA. */
+/** Original Playbox AI homepage editions for the nine supported languages. */
 export const localeList = [
   { code: "ja", slug: "ja", label: "日本語" },
   { code: "ko", slug: "ko", label: "한국어" },
