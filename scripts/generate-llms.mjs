@@ -20,7 +20,7 @@ const links=[['Homepage','/','Overview and practical decision guidance.'],['Blog
 const optional=[['About','about'],['Editorial policy','editorial-policy'],['Contact','contact'],['Privacy policy','privacy'],['Terms','terms']].filter(([,slug])=>existsSync(path.join(pages,slug+'.astro'))||existsSync(path.join(pages,slug,'index.astro')));
 const {localizedComparisons}=await import('../src/data/localized-articles.ts');
 const {infoCopy}=await import('../src/data/localized-info.ts');
-const locales=[['Japanese','ja'],['Korean','ko'],['Traditional Chinese','zh-hant'],['Spanish','es'],['Brazilian Portuguese','pt-br'],['Russian','ru'],['German','de'],['French','fr'],['Arabic','ar']];
+const locales=[['Spanish','es']];
 const localized=locales.flatMap(([language,slug])=>[
   `- [${language} homepage](${origin}/${slug}/): Localized Playbox AI workflow and decision guidance.`,
   `- [${language} comparisons](${origin}/${slug}/blog/): Five localized VS articles.`,

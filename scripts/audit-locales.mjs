@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
 const out=path.join(root,"dist","client");
 const origin="https://playboxai.fun";
-const locales={ja:"ja",ko:"ko","zh-hant":"zh-Hant",es:"es","pt-br":"pt-BR",ru:"ru",de:"de",fr:"fr",ar:"ar"};
+const locales={es:"es"};
 const keys=["musebox","runway","kling-ai","pika","luma-dream-machine"];
 const basePaths=["/","/blog/","/about/","/contact/","/editorial-policy/","/privacy/","/terms/",...keys.map(key=>`/blog/playbox-ai-vs-${key}/`)];
 const expectedRoutes=new Set(basePaths.flatMap(route=>[route,...Object.keys(locales).map(slug=>`/${slug}${route}`)]));
@@ -50,8 +50,8 @@ for(const file of files){
     if(route.endsWith("/index.html"))check(false,`${route}: unexpected file path`);
   }
 }
-check(files.length===121,`expected 121 HTML pages, found ${files.length}`);
+check(files.length===25,`expected 25 HTML pages, found ${files.length}`);
 for(const route of expectedRoutes)check(existsSync(localFile(route)),`missing route ${route}`);
 for(const name of ["robots.txt","sitemap-index.xml","rss.xml","llms.txt","a37d5e4c9b1f42e8860d3a1c7f29b605.txt"])check(existsSync(path.join(out,name)),`missing ${name}`);
 if(failures.length){console.error(`SEO audit failed:\n- ${failures.join("\n- ")}`);process.exit(1);}
-console.log(`SEO audit passed for ${files.length} HTML pages and 120 reciprocal language routes.`);
+console.log(`SEO audit passed for ${files.length} HTML pages and 24 reciprocal language routes.`);
