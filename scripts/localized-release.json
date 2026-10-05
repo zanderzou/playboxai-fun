@@ -1,0 +1,28 @@
+{
+  "domain": "playboxai.fun",
+  "keyword": "Playbox AI",
+  "languages": [
+    "ja",
+    "ko",
+    "zh-hant",
+    "es",
+    "pt-br",
+    "ru",
+    "de",
+    "fr",
+    "ar"
+  ],
+  "addLanguageFooter": false,
+  "metadataOverrides": {
+    "/zh-hant/contact/": "回報 playboxai.fun 的文章錯誤、圖片權利或無障礙問題，說明應提供的頁面與依據；產品帳號或付款請洽實際服務提供者。",
+    "/es/": "Playbox AI: evalúa vídeo desde foto, plantillas, requisitos de imagen, costes y privacidad. Compara cinco alternativas según el resultado que buscas.",
+    "/pt-br/": "Playbox AI: avalie vídeo a partir de foto, modelos, regras de imagem, custos e privacidade. Compare cinco alternativas de acordo com seu objetivo.",
+    "/ru/": "Playbox AI: оцените видео из фото, шаблоны, правила изображений, расходы и приватность. Сравните пять альтернатив по требуемому результату.",
+    "/de/": "Playbox AI: Bild-zu-Video, Vorlagen, Bildregeln, Kosten und Datenschutz prüfen. Fünf Alternativen nach dem gewünschten Ergebnis vergleichen.",
+    "/fr/": "Playbox AI : évaluer vidéo depuis une photo, modèles, règles des images, coûts et confidentialité. Comparer cinq alternatives selon l’objectif."
+  },
+  "authorizedAt": "2026-10-05",
+  "exclude": [
+    "spicybox.fun"
+  ]
+}
