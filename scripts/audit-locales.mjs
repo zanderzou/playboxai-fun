@@ -5,10 +5,13 @@ import { fileURLToPath } from "node:url";
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),"..");
 const out=path.join(root,"dist","client");
 const origin="https://playboxai.fun";
-const locales={es:"es"};
+const locales={es:"es",ja:"ja",ko:"ko","zh-hant":"zh-Hant","pt-br":"pt-BR",ru:"ru",de:"de",fr:"fr",ar:"ar"};
 const keys=["musebox","runway","kling-ai","pika","luma-dream-machine"];
 const basePaths=["/","/blog/","/about/","/contact/","/editorial-policy/","/privacy/","/terms/",...keys.map(key=>`/blog/playbox-ai-vs-${key}/`)];
 const expectedRoutes=new Set(basePaths.flatMap(route=>[route,...Object.keys(locales).map(slug=>`/${slug}${route}`)]));
+const scheduled=JSON.parse(readFileSync(path.join(root,'src/data/editorialSchedule.json'),'utf8'));
+const englishOnly=new Set(scheduled.articles.filter(a=>a.approved&&existsSync(path.join(root,'src/content/blog',a.slug+'.md'))).map(a=>'/blog/'+a.slug+'/'));
+for(const route of englishOnly)expectedRoutes.add(route);
 const failures=[];
 const check=(ok,message)=>{if(!ok)failures.push(message);};
 const files=[];
@@ -17,7 +20,7 @@ function routeFromFile(file){const rel=path.relative(out,file).replaceAll("\\","
 function localFile(href){const route=href.split("#")[0].split("?")[0];if(!route.startsWith("/"))return null;return route==="/"?path.join(out,"index.html"):path.extname(route)?path.join(out,route):path.join(out,route,"index.html");}
 function extract(html,re){return html.match(re)?.[1]??"";}
 function englishPath(route){const first=route.split("/")[1];return locales[first]?route.slice(first.length+1)||"/":route;}
-function alternates(route){const en=englishPath(route);return new Map([["en",`${origin}${en}`],...Object.entries(locales).map(([slug,code])=>[code,`${origin}/${slug}${en}`]),["x-default",`${origin}${en}`]]);}
+function alternates(route){const en=englishPath(route);return new Map([["en",`${origin}${en}`],...(englishOnly.has(en)?[]:Object.entries(locales).map(([slug,code])=>[code,`${origin}/${slug}${en}`])),["x-default",`${origin}${en}`]]);}
 walk(out);
 const canonicals=new Set();
 for(const file of files){
@@ -50,8 +53,8 @@ for(const file of files){
     if(route.endsWith("/index.html"))check(false,`${route}: unexpected file path`);
   }
 }
-check(files.length===25,`expected 25 HTML pages, found ${files.length}`);
+check(files.length===121+englishOnly.size,`expected ${121+englishOnly.size} HTML pages, found ${files.length}`);
 for(const route of expectedRoutes)check(existsSync(localFile(route)),`missing route ${route}`);
 for(const name of ["robots.txt","sitemap-index.xml","rss.xml","llms.txt","a37d5e4c9b1f42e8860d3a1c7f29b605.txt"])check(existsSync(path.join(out,name)),`missing ${name}`);
 if(failures.length){console.error(`SEO audit failed:\n- ${failures.join("\n- ")}`);process.exit(1);}
-console.log(`SEO audit passed for ${files.length} HTML pages and 24 reciprocal language routes.`);
+console.log(`SEO audit passed for ${files.length} HTML pages, 120 existing language routes and ${englishOnly.size} new English routes.`);

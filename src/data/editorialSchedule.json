@@ -1,0 +1,90 @@
+{
+  "domain": "playboxai.fun",
+  "timeZone": "Asia/Shanghai",
+  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "articles": [
+    {
+      "order": 1,
+      "slug": "playbox-vs-firefly-client-source-check",
+      "title": "Playbox vs Adobe Firefly: Check the Client Source",
+      "opponent": "Adobe Firefly",
+      "readerQuestion": "why a client portrait is not interchangeable with an eligible self-image",
+      "releaseAt": "2026-10-08T05:11:15.528Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "51905473447dda15114dead29644eb24fb9c7329e2b63a6c449a1ae816bffb43",
+      "wordCount": 536,
+      "editorialIntent": "Resolve source eligibility before evaluating a client portrait generation workflow.",
+      "sources": [
+        [
+          "Playbox Upload Eligibility and Terms",
+          "https://www.playbox.com/terms-and-conditions"
+        ],
+        [
+          "Adobe Firefly Image-to-Video Guide",
+          "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html"
+        ],
+        [
+          "Adobe Firefly FAQ",
+          "https://helpx.adobe.com/uk/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html"
+        ]
+      ]
+    },
+    {
+      "order": 2,
+      "slug": "playbox-vs-capcut-finished-social-clip",
+      "title": "Playbox vs CapCut: From Clip to Finished Video",
+      "opponent": "CapCut",
+      "readerQuestion": "a preset clip versus the editing steps required for a finished social video",
+      "releaseAt": "2026-10-15T21:55:16.673Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "5f1ded486d9f0016a8093b8ddb19ac18cddf72f7fe7a3fb5d979e9b67310968a",
+      "wordCount": 501,
+      "editorialIntent": "Turn an eligible non-explicit self-image concept into a bounded finished-video brief.",
+      "sources": [
+        [
+          "Playbox Upload Eligibility and Terms",
+          "https://www.playbox.com/terms-and-conditions"
+        ],
+        [
+          "CapCut Subtitle Workflow",
+          "https://www.capcut.com/tools/add-subtitles-to-video"
+        ],
+        [
+          "CapCut Online Video Editor",
+          "https://www.capcut.com/tools/online-video-editor"
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "slug": "playbox-vs-google-flow-location-continuity",
+      "title": "Playbox vs Google Flow: Location Continuity",
+      "opponent": "Google Flow",
+      "readerQuestion": "a self-image template versus continuity in a permitted location scene",
+      "releaseAt": "2026-10-23T11:22:27.146Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-08",
+      "reviewedSha256": "b5a54ec46422f9bf9f864f1c2632254dbada929c15d53257f37ce2c7b8dc598b",
+      "wordCount": 512,
+      "editorialIntent": "Choose a source-compatible workflow for a location sequence before assessing continuity.",
+      "sources": [
+        [
+          "Playbox Upload Eligibility and Terms",
+          "https://www.playbox.com/terms-and-conditions"
+        ],
+        [
+          "Google Flow Video and Reference Guide",
+          "https://support.google.com/flow/answer/16353334?hl=en"
+        ]
+      ]
+    }
+  ]
+}

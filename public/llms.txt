@@ -30,6 +30,7 @@ This is an independent editorial publication, not the official provider. Article
 - [Playbox AI vs Musebox AI: Which Image-to-Video Workflow Fits?](https://playboxai.fun/blog/playbox-ai-vs-musebox/)
 - [Playbox AI vs Pika: Features, Strengths, Weaknesses](https://playboxai.fun/blog/playbox-ai-vs-pika/)
 - [Playbox AI vs Runway: Template Generator or Broader Video Studio?](https://playboxai.fun/blog/playbox-ai-vs-runway/)
+- [Playbox vs Adobe Firefly: Check the Client Source](https://playboxai.fun/blog/playbox-vs-firefly-client-source-check/)
 
 ## Localized editions
 
