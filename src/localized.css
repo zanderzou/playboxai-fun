@@ -68,5 +68,5 @@
 
 /* Keep the portrait prominent and the primary action visible at 320px wide. */
 @media(max-width:360px){
-  html[data-locale-edition] .playbox-hero.locale-hero>.hero-image[data-hero-artwork]{height:270px!important}
+  html[data-locale-edition] .playbox-hero.locale-hero>.hero-image[data-hero-artwork]{height:260px!important}
 }
