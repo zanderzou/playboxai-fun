@@ -65,3 +65,8 @@
 [dir="rtl"] .lp-article-grid>a,[dir="rtl"] .lp-article,[dir="rtl"] .lp-info-content{text-align:right}
 @media(max-width:1040px){.site-header nav{display:none}.site-header{grid-template-columns:auto 1fr auto auto}.menu-button{display:block;justify-self:end}}
 @media(max-width:700px){.site-header{grid-template-columns:auto 1fr auto auto}.language-switch summary{font-size:11px;padding:6px 7px}.language-options{min-width:170px}.lp-steps,.lp-note-grid,.lp-article-grid{grid-template-columns:1fr}.lp-comparisons>a{grid-template-columns:30px minmax(0,1fr) 20px;padding:17px 0}.lp-article{padding-top:94px}.lp-blog-hero,.lp-info-hero{padding-block:115px 32px}.lp-article-body p{font-size:16px}.lp-identity h2,.lp-notes h2,.lp-safety h2,.lp-faq h2{font-size:30px}[dir="rtl"] .locale-hero .hero-copy{width:calc(100% - 34px)}[dir="rtl"] .locale-hero .hero-copy>*{width:100%;margin-left:0}}
+
+/* Keep the portrait prominent and the primary action visible at 320px wide. */
+@media(max-width:360px){
+  html[data-locale-edition] .playbox-hero.locale-hero>.hero-image[data-hero-artwork]{height:270px!important}
+}
