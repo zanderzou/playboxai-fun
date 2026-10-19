@@ -1,7 +1,7 @@
 {
   "domain": "playboxai.fun",
   "timeZone": "Asia/Shanghai",
-  "policy": "New articles are English-only. Quality review is required before a date can enable a release. Existing publications are preserved.",
+  "policy": "Only reviewed English guides are added. Existing releases and translations are preserved. Server time controls availability.",
   "articles": [
     {
       "order": 1,
@@ -85,6 +85,57 @@
           "https://support.google.com/flow/answer/16353334?hl=en"
         ]
       ]
+    },
+    {
+      "order": 4,
+      "slug": "playbox-own-subject-photo-consent-rule",
+      "title": "Can You Upload Someone Else’s Photo to Playbox? Read the Own-Subject Rule",
+      "readerQuestion": "Understand the provider’s eligibility boundary without treating another person’s permission as a universal upload authorization.",
+      "releaseAt": "2026-10-31T03:42:00.146Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-19",
+      "reviewedSha256": "7a3c536ec98f9a92d87de39505954fb75d6af2215701e9383919043040774117",
+      "wordCount": 423,
+      "editorialIntent": "A three-permission distinction and a conservative reading of the specific own-subject clause, with no generation tutorial.",
+      "sources": [
+        [
+          "Playbox: eligibility, content and payment terms",
+          "https://www.playbox.com/terms-and-conditions"
+        ],
+        [
+          "Playbox: content handling and account privacy",
+          "https://www.playbox.com/privacy-policy"
+        ]
+      ]
+    },
+    {
+      "order": 5,
+      "slug": "playbox-failed-job-credit-charge-record",
+      "title": "Playbox Failed Job and Credit Charge: Preserve the Two Records",
+      "readerQuestion": "Describe a disputed credit deduction accurately while understanding the provider’s restrictive published payment wording.",
+      "releaseAt": "2026-11-08T03:41:59.146Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-10-19",
+      "reviewedSha256": "b71610b5e8932f6bddbcdf0c9b26523ac04b9a8e29bdb85861a32ac89204b570",
+      "wordCount": 411,
+      "editorialIntent": "A two-record evidence method and a clearly fictional ledger example, without promising refunds or repeating a paid task as a test.",
+      "sources": [
+        [
+          "Playbox: eligibility, content and payment terms",
+          "https://www.playbox.com/terms-and-conditions"
+        ],
+        [
+          "Playbox: content handling and account privacy",
+          "https://www.playbox.com/privacy-policy"
+        ]
+      ]
     }
-  ]
+  ],
+  "baselinePhase": 1,
+  "articlePrefix": "/blog/",
+  "contentDirectory": "src/content/blog"
 }

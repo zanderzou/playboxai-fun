@@ -1,0 +1,12 @@
+{
+  "domain": "playboxai.fun",
+  "label": "playboxai.fun",
+  "origin": "https://playboxai.fun",
+  "slugs": [
+    "playbox-own-subject-photo-consent-rule",
+    "playbox-failed-job-credit-charge-record"
+  ],
+  "articlePrefix": "/blog/",
+  "homePath": "/",
+  "blogPath": "/blog/"
+}
