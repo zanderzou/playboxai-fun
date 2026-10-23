@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "domain": "playboxai.fun",
+  "grandfathered": [
+    {
+      "order": 1,
+      "slug": "playbox-vs-firefly-client-source-check",
+      "releaseAt": "2026-10-08T05:11:15.528Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:17:45.760Z",
+      "canonical": "https://playboxai.fun/blog/playbox-vs-firefly-client-source-check/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "8f21d8f3a8f2e18a5aa62e8c8b06bc63433dc81d",
+      "deploymentId": "bc3d2881-5de4-4574-b94f-f9c1b135d782",
+      "responseSha256": "07fe3e94eb1e0b00ca66ef6a77628ee6634062acdce4155beb311e6cec3ecdb2"
+    },
+    {
+      "order": 2,
+      "slug": "playbox-vs-capcut-finished-social-clip",
+      "releaseAt": "2026-10-15T21:55:16.673Z",
+      "status": 200,
+      "liveVerifiedAt": "2026-10-23T05:17:45.761Z",
+      "canonical": "https://playboxai.fun/blog/playbox-vs-capcut-finished-social-clip/",
+      "language": "en",
+      "titleMatches": true,
+      "discoveryVerified": true,
+      "sourceCommit": "8f21d8f3a8f2e18a5aa62e8c8b06bc63433dc81d",
+      "deploymentId": "bc3d2881-5de4-4574-b94f-f9c1b135d782",
+      "responseSha256": "7f4b9dbcba8c449a1577655c930f091f4454f0899f84bd87a8e52c035c6ee91a"
+    }
+  ],
+  "certificates": {}
+}
