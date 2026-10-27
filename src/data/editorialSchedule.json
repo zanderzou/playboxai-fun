@@ -71,9 +71,9 @@
       "language": "en",
       "approved": true,
       "status": "editorially-reviewed",
-      "sourcesCheckedAt": "2026-10-08",
-      "reviewedSha256": "b5a54ec46422f9bf9f864f1c2632254dbada929c15d53257f37ce2c7b8dc598b",
-      "wordCount": 512,
+      "sourcesCheckedAt": "2026-10-27",
+      "reviewedSha256": "8f3ae921ef07e63e6f7e384ffc7e3bb9b6907e45fe6ce29b129e533e988d7f6c",
+      "wordCount": 514,
       "editorialIntent": "Choose a source-compatible workflow for a location sequence before assessing continuity.",
       "sources": [
         [
@@ -108,7 +108,9 @@
           "Playbox: content handling and account privacy",
           "https://www.playbox.com/privacy-policy"
         ]
-      ]
+      ],
+      "notBefore": "2026-11-03T04:37:10.772Z",
+      "scheduleNote": "Effective earliest opportunity after delayed previous release; retain original releaseAt and require basic editorial approval."
     },
     {
       "order": 5,
@@ -132,7 +134,9 @@
           "Playbox: content handling and account privacy",
           "https://www.playbox.com/privacy-policy"
         ]
-      ]
+      ],
+      "notBefore": "2026-11-10T04:37:10.772Z",
+      "scheduleNote": "Effective earliest opportunity after delayed previous release; retain original releaseAt and require basic editorial approval."
     }
   ],
   "baselinePhase": 1,

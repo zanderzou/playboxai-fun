@@ -31,5 +31,59 @@
       "responseSha256": "7f4b9dbcba8c449a1577655c930f091f4454f0899f84bd87a8e52c035c6ee91a"
     }
   ],
-  "certificates": {}
+  "certificates": {
+    "playbox-vs-google-flow-location-continuity": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "playboxai.fun",
+      "slug": "playbox-vs-google-flow-location-continuity",
+      "order": 3,
+      "releaseAt": "2026-10-23T11:22:27.146Z",
+      "activationAt": "2026-10-27T04:37:10.772Z",
+      "reviewedAt": "2026-10-27T04:37:10.772Z",
+      "factsCheckedAt": "2026-10-27T04:37:10.772Z",
+      "reviewedBy": "Codex editorial review following the October27 human project override",
+      "contentSha256": "8f3ae921ef07e63e6f7e384ffc7e3bb9b6907e45fe6ce29b129e533e988d7f6c",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Reviewed original final article and primary source scope; correct material outdated claims, preserve honest limits, no fabricated product experience."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://www.playbox.com/terms-and-conditions",
+          "checkedAt": "2026-10-27T04:37:10.772Z",
+          "status": "content-retrieved",
+          "claim": "Relevant current published feature/policy wording reviewed; no account behavior or product testing implied.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027/source-a1827f3483cde2bf.json",
+              "sha256": "cc8bb0bb648827e8d658b8b044ab7444a23b263caa9e8f2bc1823155666441ad"
+            }
+          ]
+        },
+        {
+          "url": "https://support.google.com/flow/answer/16353334?hl=en",
+          "checkedAt": "2026-10-27T04:28:39.730Z",
+          "status": 200,
+          "claim": "Relevant current published feature/policy wording reviewed; no account behavior or product testing implied.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261027/source-e283d62b5ebc0697.json",
+              "sha256": "ed053cb8aa8d8afad6c9f1a9123f02442059a72593fb2f297640e9c351d2eb78"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "6e437c5561abc1e824874618eee36356c9df9d15807facf015bfbb13e4eb0598"
+    }
+  }
 }

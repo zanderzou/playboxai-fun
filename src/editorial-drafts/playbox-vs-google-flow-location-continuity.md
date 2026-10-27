@@ -1,8 +1,8 @@
 ---
 title: "Playbox vs Google Flow: Location Continuity"
 description: "Compare Playbox’s eligible self-image route with Google Flow’s location-scene workflow, keeping source compatibility and visual continuity separate."
-publishDate: 2026-10-23T11:22:27.146Z
-updatedDate: 2026-10-08T05:11:15.528Z
+publishDate: "2026-10-27"
+updatedDate: "2026-10-27"
 category: "Comparison"
 readTime: "3 min read"
 answer: "An eligible Playbox self-image brief differs from a location-focused Google Flow project. Do not upload a location reference to a person-specific route just to force a matched comparison. For a permitted non-personal sequence, evaluate Flow’s supported references and exported continuity against an original scene brief."
@@ -17,7 +17,7 @@ sources:
 
 Playbox vs Google Flow should not begin by forcing the same upload into different source workflows. A template centered on an eligible self-image and a project centered on a location may serve different creative jobs. Source compatibility comes before a claim about which produces a more consistent scene.
 
-Official information was reviewed on October 8, 2026. This article proposes a non-personal scene exercise and reports no generated benchmark. Its example is an original miniature coastal observatory, not a photograph of a real person's home or identity.
+Official information was reviewed on October 27, 2026. This article proposes a non-personal scene exercise and reports no generated benchmark. Its example is an original miniature coastal observatory, not a photograph of a real person's home or identity.
 
 ## Write the location requirement
 

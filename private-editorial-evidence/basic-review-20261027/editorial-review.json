@@ -1,0 +1,20 @@
+{
+  "domain": "playboxai.fun",
+  "slug": "playbox-vs-google-flow-location-continuity",
+  "reviewedAt": "2026-10-27T04:37:10.772Z",
+  "standard": "portfolio-basic-quality-20261027",
+  "materialRevision": false,
+  "sources": [
+    "https://www.playbox.com/terms-and-conditions",
+    "https://support.google.com/flow/answer/16353334?hl=en"
+  ],
+  "quality": {
+    "readable": true,
+    "useful": true,
+    "factual": true,
+    "experienceClaims": "none",
+    "note": "Reviewed original final article and primary source scope; correct material outdated claims, preserve honest limits, no fabricated product experience."
+  },
+  "contentSha256": "8f3ae921ef07e63e6f7e384ffc7e3bb9b6907e45fe6ce29b129e533e988d7f6c",
+  "limits": "Informational guide and suggested fictional exercises; no product-account, transaction, backend or generation test claimed."
+}
