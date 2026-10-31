@@ -84,6 +84,59 @@
         }
       ],
       "certificateDigest": "6e437c5561abc1e824874618eee36356c9df9d15807facf015bfbb13e4eb0598"
+    },
+    "playbox-own-subject-photo-consent-rule": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "playboxai.fun",
+      "slug": "playbox-own-subject-photo-consent-rule",
+      "order": 4,
+      "releaseAt": "2026-10-31T03:42:00.146Z",
+      "activationAt": "2026-11-03T04:37:10.772Z",
+      "reviewedAt": "2026-10-31T05:21:08.597Z",
+      "factsCheckedAt": "2026-10-31T05:20:02.963Z",
+      "reviewedBy": "Codex article and current primary-source review under October27 human standard",
+      "contentSha256": "1b33e9a1cc6f448dddbcb4781c459ab2d38ba15c57ab66af19d974b932eb160d",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Sound sourced informational guide under current project standard."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://www.playbox.com/terms-and-conditions",
+          "checkedAt": "2026-10-31T05:19:41.444Z",
+          "status": "content-retrieved",
+          "claim": "Sound sourced informational guide under current project standard.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261031-051246/editorial-review.json",
+              "sha256": "52188337c6810bb6da76bb41ed63e8090fb62792a7d5f5aa3130ff2e6bdcc139"
+            }
+          ]
+        },
+        {
+          "url": "https://www.playbox.com/privacy-policy",
+          "checkedAt": "2026-10-31T05:19:41.449Z",
+          "status": "content-retrieved",
+          "claim": "Sound sourced informational guide under current project standard.",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/basic-review-20261031-051246/editorial-review.json",
+              "sha256": "52188337c6810bb6da76bb41ed63e8090fb62792a7d5f5aa3130ff2e6bdcc139"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "0d67dd134d0384afcc86311cfa977839175bed9e317459d54265864dd8dfa29e"
     }
   }
 }

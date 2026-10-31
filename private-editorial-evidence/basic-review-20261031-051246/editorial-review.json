@@ -1,0 +1,114 @@
+{
+  "reviewedAt": "2026-10-31T05:20:02.963Z",
+  "domain": "playboxai.fun",
+  "slug": "playbox-own-subject-photo-consent-rule",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "skill": {
+    "name": "write-tested-seo",
+    "version": "1.5",
+    "projectOverride": "October27 basic factuality and usefulness; no invented experience or mandatory hands-on quota"
+  },
+  "sourceCommit": "925b9b24d6253a9d6afec71a36f43cd571dbf2b8",
+  "production": {
+    "id": "b3c97789-6b62-44e0-ad4b-d21bd06d2cc1",
+    "url": "https://b3c97789.playboxai-fun.pages.dev",
+    "commit": "925b9b24d6253a9d6afec71a36f43cd571dbf2b8",
+    "sourceShaRaw": "925b9b24d6253a9d6afec71a36f43cd571dbf2b8",
+    "createdAt": "2026-10-29T14:14:39.571752Z"
+  },
+  "sourceFile": "src/editorial-drafts/playbox-own-subject-photo-consent-rule.md",
+  "rawBytes": 3886,
+  "contentSha256": "7a3c536ec98f9a92d87de39505954fb75d6af2215701e9383919043040774117",
+  "terminalLfPreserved": true,
+  "targetRepositoryInstructions": "Exact-main AGENTS read and current root policy applied.",
+  "sources": [
+    {
+      "url": "https://www.playbox.com/terms-and-conditions",
+      "finalUrl": "https://www.playbox.com/terms-and-conditions",
+      "status": 200,
+      "checkedAt": "2026-10-31T05:19:41.444Z",
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "918814c4fe6048e70dd762dceeb88e74a7a94abb7f9d50c4e490690d986167dd",
+      "contentRetrievedDirectly": true,
+      "textSha256": "ab498386f899b9457c8d520abbcf8fdf28672cbc912db80a1009594b5a951fcb",
+      "webSearchAndOriginalPageOpened": true,
+      "webReadCompletedAt": "2026-10-31T05:19:40.587Z",
+      "directStatus": 200,
+      "directError": null,
+      "webRetrievalStatus": "content-retrieved",
+      "summary": "Terms section2 requires uploader be depicted person; section4.1 requires sole subject and necessary rights."
+    },
+    {
+      "url": "https://www.playbox.com/privacy-policy",
+      "finalUrl": "https://www.playbox.com/privacy-policy",
+      "status": 200,
+      "checkedAt": "2026-10-31T05:19:41.449Z",
+      "robots": null,
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "918814c4fe6048e70dd762dceeb88e74a7a94abb7f9d50c4e490690d986167dd",
+      "contentRetrievedDirectly": true,
+      "textSha256": "ab498386f899b9457c8d520abbcf8fdf28672cbc912db80a1009594b5a951fcb",
+      "webSearchAndOriginalPageOpened": true,
+      "webReadCompletedAt": "2026-10-31T05:19:40.587Z",
+      "directStatus": 200,
+      "directError": null,
+      "webRetrievalStatus": "content-retrieved",
+      "summary": "Privacy lists content categories/processing; privacy language is not an eligibility exemption. Draft does not claim independently audited privacy."
+    }
+  ],
+  "sourceReview": {
+    "retrievalMethod": "Actual current official searches and original-page opens using web tool; direct HTTP status/errors retained separately. No login/account/payment/deletion actions.",
+    "webReadCompletedAt": "2026-10-31T05:19:40.587Z",
+    "claims": [
+      "Terms section2 requires uploader be depicted person; section4.1 requires sole subject and necessary rights.",
+      "Privacy lists content categories/processing; privacy language is not an eligibility exemption. Draft does not claim independently audited privacy."
+    ],
+    "summary": "Playbox Terms sections2 and4.1 retain the uploader-must-be-depicted/sole-subject rule. Broader section4.3 consent wording does not erase that narrower eligibility requirement. Privacy policy describes uploaded/generated-content handling separately. Draft preserves own-subject restriction and makes no upload authorization or rights-cleared guarantee."
+  },
+  "editorialReview": {
+    "readerQuestion": "Understand the provider’s eligibility boundary without treating another person’s permission as a universal upload authorization.",
+    "openingAnswersTask": true,
+    "concreteValue": "Separates subject eligibility, photo rights and processing permission without substituting generic consent for own-subject rule.",
+    "readableEnglish": true,
+    "honestLimitations": true,
+    "noPersonalTestingClaim": true,
+    "noGuarantee": true,
+    "preserveExistingDates": true,
+    "missingAccountAccessIsNotBlocker": true,
+    "assessment": "Sound sourced informational guide under current project standard."
+  },
+  "materialChangeFound": false,
+  "requiredContentChanges": [],
+  "recommendedFinalContentSha256": "7a3c536ec98f9a92d87de39505954fb75d6af2215701e9383919043040774117",
+  "recommendedEditorialDecision": "eligible-for-basic-editorial-approval-by-authorized-parent-workflow",
+  "limitations": [
+    "Editorial/source research only; no account, login, subscription, payment, deletion, private photo upload or product performance test performed.",
+    "Exact draft source is verified; provider/source identity comes from this heartbeat fresh inventory, not a deployment by this agent."
+  ],
+  "currentMainBindingVerified": {
+    "passed": true,
+    "main": "925b9b24d6253a9d6afec71a36f43cd571dbf2b8",
+    "production": {
+      "id": "b3c97789-6b62-44e0-ad4b-d21bd06d2cc1",
+      "url": "https://b3c97789.playboxai-fun.pages.dev",
+      "commit": "925b9b24d6253a9d6afec71a36f43cd571dbf2b8",
+      "sourceShaRaw": "925b9b24d6253a9d6afec71a36f43cd571dbf2b8",
+      "createdAt": "2026-10-29T14:14:39.571752Z"
+    },
+    "proof": "../sites/playboxai.fun/source.json"
+  },
+  "changes": {
+    "repo": false,
+    "approval": false,
+    "deployment": false
+  },
+  "finalContentSha256": "1b33e9a1cc6f448dddbcb4781c459ab2d38ba15c57ab66af19d974b932eb160d",
+  "originalContentSha256": "7a3c536ec98f9a92d87de39505954fb75d6af2215701e9383919043040774117",
+  "finalMetadataReview": {
+    "publishDate": "2026-11-03",
+    "originalPublishDate": "2026-10-31",
+    "reason": "Actual effective activation date; original planned releaseAt retained",
+    "updatedDateChangedOnlyForBodyCorrection": false
+  }
+}

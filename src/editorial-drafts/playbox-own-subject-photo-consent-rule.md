@@ -1,7 +1,7 @@
 ---
 title: "Can You Upload Someone Else’s Photo to Playbox? Read the Own-Subject Rule"
 description: "Distinguish Playbox’s own-subject eligibility requirement from photo ownership, another person’s permission and the service’s processing license."
-publishDate: "2026-10-31"
+publishDate: "2026-11-03"
 updatedDate: "2026-10-19"
 category: "Practical guide"
 readTime: "3 min read"
