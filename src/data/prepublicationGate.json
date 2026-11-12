@@ -137,6 +137,59 @@
         }
       ],
       "certificateDigest": "0d67dd134d0384afcc86311cfa977839175bed9e317459d54265864dd8dfa29e"
+    },
+    "playbox-failed-job-credit-charge-record": {
+      "schemaVersion": 1,
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "domain": "playboxai.fun",
+      "slug": "playbox-failed-job-credit-charge-record",
+      "order": 5,
+      "releaseAt": "2026-11-08T03:41:59.146Z",
+      "activationAt": "2026-11-12T16:19:48.000Z",
+      "reviewedAt": "2026-11-12T15:58:52.998Z",
+      "factsCheckedAt": "2026-11-12T15:58:47.9434455Z",
+      "reviewedBy": "Codex editorial review",
+      "contentSha256": "6a500580c835c34f2362529c4223242fc8cce993ef945623e6e1899567927b8f",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Clear practical English guide. Important claims checked against official documents. Illustrations are hypothetical or documentary, without invented account or product testing."
+      },
+      "observations": [],
+      "officialSources": [
+        {
+          "url": "https://www.playbox.com/terms-and-conditions",
+          "claim": "Sections 7 and 7.1 distinguish mandatory legal exceptions and nonrefundability for purchased or consumed credits, including technical issues. No refund or credit restoration is promised.",
+          "checkedAt": "2026-11-12T15:58:47.9434455Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261112-blog-release-review.json",
+              "sha256": "2ee39204771b9f5ad8db7e5870306943422ff4f4793879df5f4d087550119d43"
+            }
+          ]
+        },
+        {
+          "url": "https://www.playbox.com/privacy-policy",
+          "claim": "Support and privacy context was read. No billing process, refund request or paid generation was performed.",
+          "checkedAt": "2026-11-07T04:43:49.174Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261112-blog-release-review.json",
+              "sha256": "2ee39204771b9f5ad8db7e5870306943422ff4f4793879df5f4d087550119d43"
+            }
+          ]
+        }
+      ],
+      "certificateDigest": "90cd57bec64b0864c41812556a85fcd9b10e724d2bc1fc092f32f2df47495cc0"
     }
   }
 }

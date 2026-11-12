@@ -1,0 +1,74 @@
+{
+  "domain": "playboxai.fun",
+  "slug": "playbox-failed-job-credit-charge-record",
+  "sourceCommit": "f0029522c801be99955b5e8f0346d0a7ce46e10f",
+  "originalContentSha256": "b71610b5e8932f6bddbcdf0c9b26523ac04b9a8e29bdb85861a32ac89204b570",
+  "finalContentSha256": "6a500580c835c34f2362529c4223242fc8cce993ef945623e6e1899567927b8f",
+  "reviewedAt": "2026-11-12T15:58:52.998Z",
+  "editorialNote": "Clear practical English guide. Important claims checked against official documents. Illustrations are hypothetical or documentary, without invented account or product testing.",
+  "officialSources": [
+    {
+      "url": "https://www.playbox.com/terms-and-conditions",
+      "claim": "Sections 7 and 7.1 distinguish mandatory legal exceptions and nonrefundability for purchased or consumed credits, including technical issues. No refund or credit restoration is promised.",
+      "checkedAt": "2026-11-12T15:58:47.9434455Z"
+    },
+    {
+      "url": "https://www.playbox.com/privacy-policy",
+      "claim": "Support and privacy context was read. No billing process, refund request or paid generation was performed.",
+      "checkedAt": "2026-11-07T04:43:49.174Z"
+    }
+  ],
+  "earlierArticleReview": {
+    "domain": "playboxai.fun",
+    "slug": "playbox-failed-job-credit-charge-record",
+    "readerQuestion": "How should a failed generation and a credit deduction be documented without assuming a refund?",
+    "sources": [
+      {
+        "url": "https://www.playbox.com/terms-and-conditions",
+        "facts": [
+          "Section7 makes fees nonrefundable subject to mandatory law. Section7.1 expressly includes purchased or consumed credits, dissatisfaction and technical issues. The draft accurately avoids promising a refund or ledger reversal."
+        ],
+        "checkedAt": "2026-11-07T04:43:49.174Z",
+        "status": "official-page-opened-and-relevant-passages-read",
+        "method": "Current web search and actual source open; research only, no personal product operation.",
+        "sourceUpdated": "14 July 2025"
+      },
+      {
+        "url": "https://www.playbox.com/privacy-policy",
+        "facts": [
+          "Support and privacy context was read. No billing process, refund request or paid generation was performed."
+        ],
+        "checkedAt": "2026-11-07T04:43:49.174Z",
+        "status": "official-page-opened-and-relevant-passages-read",
+        "method": "Current web search and actual source open; research only, no personal product operation.",
+        "sourceUpdated": "14 July 2025"
+      }
+    ],
+    "keyClaimsSupported": true,
+    "corrections": [],
+    "gaps": [
+      "Draft calculation is explicitly fictional; ledger reconciliation is editorial guidance, not a verified refund operation."
+    ],
+    "sourceCommit": "f0029522c801be99955b5e8f0346d0a7ce46e10f",
+    "contentSha256": "b71610b5e8932f6bddbcdf0c9b26523ac04b9a8e29bdb85861a32ac89204b570",
+    "rawCommittedSha256": "b71610b5e8932f6bddbcdf0c9b26523ac04b9a8e29bdb85861a32ac89204b570",
+    "contentFile": "src/editorial-drafts/playbox-failed-job-credit-charge-record.md",
+    "notBefore": "2026-11-10T04:37:10.772Z",
+    "sourceRead": "Complete exact Git draft read; identity rechecked at report save.",
+    "reviewStandard": "portfolio-basic-quality-20261027",
+    "readable": true,
+    "useful": true,
+    "noFabricatedExperience": true,
+    "approvalIssued": false,
+    "repoEdited": false,
+    "deployed": false,
+    "currentDeploymentIdentityVerified": false
+  },
+  "correctedBeforeRelease": false,
+  "priorProduction": {
+    "deploymentId": "92e5ec05-b531-4156-abb0-dcf1148c93fe",
+    "sourceCommit": "f0029522c801be99955b5e8f0346d0a7ce46e10f",
+    "phase": 4
+  },
+  "intendedActivationAt": "2026-11-12T16:19:48.000Z"
+}

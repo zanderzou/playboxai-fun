@@ -1,8 +1,8 @@
 ---
 title: "Playbox Failed Job and Credit Charge: Preserve the Two Records"
 description: "Separate a Playbox task failure from the credit ledger and a refund decision, using a minimal evidence packet instead of assuming every error automatically restores credits."
-publishDate: "2026-11-08"
-updatedDate: "2026-10-19"
+publishDate: "2026-11-12"
+updatedDate: "2026-11-12"
 category: "Practical guide"
 readTime: "3 min read"
 accent: "violet"
