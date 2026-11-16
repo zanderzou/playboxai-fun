@@ -1,0 +1,38 @@
+{
+  "domain": "playboxai.fun",
+  "slug": "playbox-own-photo-leave-room-for-motion",
+  "order": 6,
+  "reviewedAt": "2026-11-16T11:40:47.914Z",
+  "factsCheckedAt": "2026-11-16T11:40:21Z",
+  "contentSha256": "bf4fab4ee9a7e29941d64a722587660c82ae25aedc8f57154ff8c04b31164853",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-19T16:19:48.000Z",
+  "readerQuestion": "How should I frame an own-photo input for a short Playbox animation?",
+  "applicableClaims": [
+    {
+      "name": "Playbox current service terms",
+      "url": "https://www.playbox.com/terms-and-conditions",
+      "note": "Defines still-image animation, media restrictions, variable outputs and payment conditions."
+    },
+    {
+      "name": "Adobe Firefly image-to-video workflow",
+      "url": "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html",
+      "note": "Documents beginning and optional ending frames, motion input and output options. Used for general production principles."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/playboxai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-playbox-own-photo-leave-room-for-motion.png",
+    "sha256": "679874065bd2aaa4da0de3d8de6734ca7743852dc24db6f530a63fab1c6f3b33",
+    "type": "Original editorial diagram",
+    "alt": "Choose the visible action. Make room around the hands. Check the final position."
+  },
+  "editorialReview": {
+    "readerAction": "Plan a safe original portrait around the object, movement and edge it must keep visible.",
+    "wordCount": 157,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

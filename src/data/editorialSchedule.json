@@ -137,6 +137,85 @@
       ],
       "notBefore": "2026-11-10T04:37:10.772Z",
       "scheduleNote": "Effective earliest opportunity after delayed previous release; retain original releaseAt and require basic editorial approval."
+    },
+    {
+      "order": 6,
+      "slug": "playbox-own-photo-leave-room-for-motion",
+      "title": "Leave Room for Motion in a Playbox Source Photo",
+      "readerQuestion": "How should I frame an own-photo input for a short Playbox animation?",
+      "releaseAt": "2026-11-19T16:19:48.000Z",
+      "notBefore": "2026-11-19T16:19:48.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "bf4fab4ee9a7e29941d64a722587660c82ae25aedc8f57154ff8c04b31164853",
+      "wordCount": 157,
+      "editorialIntent": "Plan a safe original portrait around the object, movement and edge it must keep visible.",
+      "sources": [
+        [
+          "Playbox current service terms",
+          "https://www.playbox.com/terms-and-conditions"
+        ],
+        [
+          "Adobe Firefly image-to-video workflow",
+          "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html"
+        ]
+      ]
+    },
+    {
+      "order": 7,
+      "slug": "playbox-review-clip-before-sharing-visual-check",
+      "title": "Review the First and Last Frames of a Playbox Clip",
+      "readerQuestion": "What should I review in an own-photo Playbox animation before sharing it?",
+      "releaseAt": "2026-11-26T16:19:48.000Z",
+      "notBefore": "2026-11-26T16:19:48.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "87661a9cea6b32ce1c991b5b80743593ff843d77089aec5caa8c7d1874a6a2eb",
+      "wordCount": 147,
+      "editorialIntent": "Check garment coverage, background details and the last pose before choosing a version to share.",
+      "sources": [
+        [
+          "Playbox current service terms",
+          "https://www.playbox.com/terms-and-conditions"
+        ],
+        [
+          "Playbox privacy policy",
+          "https://www.playbox.com/privacy-policy"
+        ],
+        [
+          "Adobe Firefly image-to-video workflow",
+          "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html"
+        ]
+      ]
+    },
+    {
+      "order": 8,
+      "slug": "playbox-compare-credits-with-one-clip",
+      "title": "Review a Playbox Plan Against One Planned Clip",
+      "readerQuestion": "How do I make sense of Playbox plan credits before paying for a short video?",
+      "releaseAt": "2026-12-03T16:19:48.000Z",
+      "notBefore": "2026-12-03T16:19:48.000Z",
+      "language": "en",
+      "approved": true,
+      "status": "editorially-reviewed",
+      "sourcesCheckedAt": "2026-11-16",
+      "reviewedSha256": "67a4924d3e9f1f471213d3f48cb0a5a5ba7293aa22163e5819812fc1ce4dc51b",
+      "wordCount": 148,
+      "editorialIntent": "Match the checkout interval and credits to the exact option you expect to use.",
+      "sources": [
+        [
+          "Playbox subscription page",
+          "https://www.playbox.com/subscription"
+        ],
+        [
+          "Playbox current service terms",
+          "https://www.playbox.com/terms-and-conditions"
+        ]
+      ]
     }
   ],
   "baselinePhase": 1,

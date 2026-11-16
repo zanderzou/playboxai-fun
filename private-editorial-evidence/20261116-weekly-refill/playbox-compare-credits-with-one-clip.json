@@ -1,0 +1,38 @@
+{
+  "domain": "playboxai.fun",
+  "slug": "playbox-compare-credits-with-one-clip",
+  "order": 8,
+  "reviewedAt": "2026-11-16T11:40:47.914Z",
+  "factsCheckedAt": "2026-11-16T11:40:21Z",
+  "contentSha256": "67a4924d3e9f1f471213d3f48cb0a5a5ba7293aa22163e5819812fc1ce4dc51b",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-12-03T16:19:48.000Z",
+  "readerQuestion": "How do I make sense of Playbox plan credits before paying for a short video?",
+  "applicableClaims": [
+    {
+      "name": "Playbox subscription page",
+      "url": "https://www.playbox.com/subscription",
+      "note": "Describes plan credits and billing intervals. Actual charged amount and payment channel should come from checkout."
+    },
+    {
+      "name": "Playbox current service terms",
+      "url": "https://www.playbox.com/terms-and-conditions",
+      "note": "Defines still-image animation, media restrictions, variable outputs and payment conditions."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/playboxai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-playbox-compare-credits-with-one-clip.png",
+    "sha256": "5e96189f72406245cf92cb1e608448948b8605a20240b29901ee9f539ce9e8cf",
+    "type": "Original editorial diagram",
+    "alt": "Choose a clip and its options. Check the billed interval. Read the current available credits."
+  },
+  "editorialReview": {
+    "readerAction": "Match the checkout interval and credits to the exact option you expect to use.",
+    "wordCount": 148,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}

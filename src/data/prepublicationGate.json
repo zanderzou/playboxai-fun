@@ -190,6 +190,181 @@
         }
       ],
       "certificateDigest": "90cd57bec64b0864c41812556a85fcd9b10e724d2bc1fc092f32f2df47495cc0"
+    },
+    "playbox-own-photo-leave-room-for-motion": {
+      "schemaVersion": 1,
+      "domain": "playboxai.fun",
+      "slug": "playbox-own-photo-leave-room-for-motion",
+      "order": 6,
+      "releaseAt": "2026-11-19T16:19:48.000Z",
+      "activationAt": "2026-11-19T16:19:48.000Z",
+      "contentSha256": "bf4fab4ee9a7e29941d64a722587660c82ae25aedc8f57154ff8c04b31164853",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:40:47.914Z",
+      "factsCheckedAt": "2026-11-16T11:40:21Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Playbox current service terms",
+          "url": "https://www.playbox.com/terms-and-conditions",
+          "note": "Defines still-image animation, media restrictions, variable outputs and payment conditions.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/playbox-own-photo-leave-room-for-motion.json",
+              "sha256": "8325436ac4b7e56eeffa313de1e72b3a9bf4529e6c6b5b40e880a3a350cc11a2"
+            }
+          ]
+        },
+        {
+          "name": "Adobe Firefly image-to-video workflow",
+          "url": "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html",
+          "note": "Documents beginning and optional ending frames, motion input and output options. Used for general production principles.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/playbox-own-photo-leave-room-for-motion.json",
+              "sha256": "8325436ac4b7e56eeffa313de1e72b3a9bf4529e6c6b5b40e880a3a350cc11a2"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "0ba5c04d4a69839392ec9f4b5d06f5f3390998ea25e11b538c2a408360337c43"
+    },
+    "playbox-review-clip-before-sharing-visual-check": {
+      "schemaVersion": 1,
+      "domain": "playboxai.fun",
+      "slug": "playbox-review-clip-before-sharing-visual-check",
+      "order": 7,
+      "releaseAt": "2026-11-26T16:19:48.000Z",
+      "activationAt": "2026-11-26T16:19:48.000Z",
+      "contentSha256": "87661a9cea6b32ce1c991b5b80743593ff843d77089aec5caa8c7d1874a6a2eb",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:40:47.914Z",
+      "factsCheckedAt": "2026-11-16T11:40:21Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Playbox current service terms",
+          "url": "https://www.playbox.com/terms-and-conditions",
+          "note": "Defines still-image animation, media restrictions, variable outputs and payment conditions.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/playbox-review-clip-before-sharing-visual-check.json",
+              "sha256": "8315ff69fa197fc8481571f1694e92219ca108bb0b47658aa64f3f02f5ca341d"
+            }
+          ]
+        },
+        {
+          "name": "Playbox privacy policy",
+          "url": "https://www.playbox.com/privacy-policy",
+          "note": "Describes data and media handling. Guide does not infer storage guarantees or take actions involving real photos.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/playbox-review-clip-before-sharing-visual-check.json",
+              "sha256": "8315ff69fa197fc8481571f1694e92219ca108bb0b47658aa64f3f02f5ca341d"
+            }
+          ]
+        },
+        {
+          "name": "Adobe Firefly image-to-video workflow",
+          "url": "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html",
+          "note": "Documents beginning and optional ending frames, motion input and output options. Used for general production principles.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/playbox-review-clip-before-sharing-visual-check.json",
+              "sha256": "8315ff69fa197fc8481571f1694e92219ca108bb0b47658aa64f3f02f5ca341d"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "74d0165fac7f63d0efbd5e1e35cec57cbd794552c5397ed377cad9f9565ce6b5"
+    },
+    "playbox-compare-credits-with-one-clip": {
+      "schemaVersion": 1,
+      "domain": "playboxai.fun",
+      "slug": "playbox-compare-credits-with-one-clip",
+      "order": 8,
+      "releaseAt": "2026-12-03T16:19:48.000Z",
+      "activationAt": "2026-12-03T16:19:48.000Z",
+      "contentSha256": "67a4924d3e9f1f471213d3f48cb0a5a5ba7293aa22163e5819812fc1ce4dc51b",
+      "skill": {
+        "name": "write-tested-seo",
+        "version": "1.5"
+      },
+      "reviewStandard": "portfolio-basic-quality-20261027",
+      "status": "validated",
+      "reviewedAt": "2026-11-16T11:40:47.914Z",
+      "factsCheckedAt": "2026-11-16T11:40:21Z",
+      "editorialReview": {
+        "readable": true,
+        "useful": true,
+        "factual": true,
+        "experienceClaims": "none",
+        "note": "Primary sources and an explicitly fictional example. No product operation is claimed."
+      },
+      "officialSources": [
+        {
+          "name": "Playbox subscription page",
+          "url": "https://www.playbox.com/subscription",
+          "note": "Describes plan credits and billing intervals. Actual charged amount and payment channel should come from checkout.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/playbox-compare-credits-with-one-clip.json",
+              "sha256": "d9c0e120a61ffbbfb06d5069fc4b931139fd75b886b3de77d95d50193e0f61a5"
+            }
+          ]
+        },
+        {
+          "name": "Playbox current service terms",
+          "url": "https://www.playbox.com/terms-and-conditions",
+          "note": "Defines still-image animation, media restrictions, variable outputs and payment conditions.",
+          "checkedAt": "2026-11-16T11:40:21Z",
+          "status": "content-retrieved",
+          "evidence": [
+            {
+              "path": "private-editorial-evidence/20261116-weekly-refill/playbox-compare-credits-with-one-clip.json",
+              "sha256": "d9c0e120a61ffbbfb06d5069fc4b931139fd75b886b3de77d95d50193e0f61a5"
+            }
+          ]
+        }
+      ],
+      "observations": [],
+      "certificateDigest": "50ac75adcb91794ba51f9f2f0b4ac4a56668f174c3e0dbe05327230f7076d9dd"
     }
   }
 }

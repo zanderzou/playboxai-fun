@@ -1,0 +1,43 @@
+{
+  "domain": "playboxai.fun",
+  "slug": "playbox-review-clip-before-sharing-visual-check",
+  "order": 7,
+  "reviewedAt": "2026-11-16T11:40:47.914Z",
+  "factsCheckedAt": "2026-11-16T11:40:21Z",
+  "contentSha256": "87661a9cea6b32ce1c991b5b80743593ff843d77089aec5caa8c7d1874a6a2eb",
+  "reviewStandard": "portfolio-basic-quality-20261027",
+  "releaseAt": "2026-11-26T16:19:48.000Z",
+  "readerQuestion": "What should I review in an own-photo Playbox animation before sharing it?",
+  "applicableClaims": [
+    {
+      "name": "Playbox current service terms",
+      "url": "https://www.playbox.com/terms-and-conditions",
+      "note": "Defines still-image animation, media restrictions, variable outputs and payment conditions."
+    },
+    {
+      "name": "Playbox privacy policy",
+      "url": "https://www.playbox.com/privacy-policy",
+      "note": "Describes data and media handling. Guide does not infer storage guarantees or take actions involving real photos."
+    },
+    {
+      "name": "Adobe Firefly image-to-video workflow",
+      "url": "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html",
+      "note": "Documents beginning and optional ending frames, motion input and output options. Used for general production principles."
+    }
+  ],
+  "exampleType": "Original illustrative workflow",
+  "proofOfExistingPublicPrefix": "research/prepublish-tested-seo-20261023/runs/2026-11-16-weekly-refill/sites/playboxai.fun/baseline.json",
+  "illustration": {
+    "path": "public/assets/editorial-playbox-review-clip-before-sharing-visual-check.png",
+    "sha256": "4e73f7b82e424f0d81f77ee742c80d3bb773f3a46b59814329bd02c336b3fde7",
+    "type": "Original editorial diagram",
+    "alt": "Compare the opening composition. Inspect where the body moves. Pause at the final frame."
+  },
+  "editorialReview": {
+    "readerAction": "Check garment coverage, background details and the last pose before choosing a version to share.",
+    "wordCount": 147,
+    "factBasis": "Primary sources and an explicitly fictional example. No product operation is claimed.",
+    "sourceLinksKeptInPrivateEvidence": true,
+    "productionReview": "The compiled Worker, all release boundaries and formal site are checked separately."
+  }
+}
